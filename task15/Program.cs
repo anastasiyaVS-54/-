@@ -21,24 +21,3 @@ else
 {
     System.Console.WriteLine("Не верно введенное число");
 }
-
-
-
-
-
-
-//     System.Console.WriteLine("Будний");
-// }
-
-
-
-
-//     if(numberDay == 6 || numberDay == 7)
-//     {
-//         System.Console.WriteLine("Выходной");
-//     }
-// }
-// else
-// {
-//     System.Console.WriteLine("Будний");
-// }

@@ -4,20 +4,40 @@
 // 32679 -> 6
 
 
-// решение через получения
-System.Console.WriteLine("Введите число:  ");
-string userNumber = Console.ReadLine();
+// решение 1
 
 
-int lengthfString = userNumber.Length;
+// System.Console.WriteLine("Введите число:  ");
+// string userNumber = Console.ReadLine();
 
-Console.WriteLine($"Длина строки: {lengthfString}");
 
-if(lengthfString >= 3)
+// int lengthfString = userNumber.Length;
+
+// Console.WriteLine($"Длина строки: {lengthfString}");
+
+// if(lengthfString >= 3)
+// {
+//     System.Console.WriteLine(userNumber[2]);
+// }
+// else
+// {
+//     System.Console.WriteLine("NO");
+// }
+
+
+//  решение 2
+
+Console.Write("Введите число:  ");
+int userNumber = Convert.ToInt32(Console.ReadLine());
+
+int length = userNumber.ToString().Length;  // Получаем количество цифр в числе
+
+if (length >= 3)
 {
-    System.Console.WriteLine(userNumber[2]);
+    int result = (userNumber / (int)Math.Pow(10, length - 3)) % 10;
+    Console.WriteLine($"Третья цифра: {result}");
 }
 else
 {
-    System.Console.WriteLine("NO");
+    Console.WriteLine("Третьей цифры нет");
 }

@@ -21,7 +21,7 @@
 // }
 // else
 // {
-//     System.Console.WriteLine("NO");
+//     System.Console.WriteLine("Третьей цифры нет");
 // }
 
 
@@ -30,7 +30,7 @@
 Console.Write("Введите число:  ");
 int userNumber = Convert.ToInt32(Console.ReadLine());
 
-int length = userNumber.ToString().Length;  // Получаем количество цифр в числе
+int length = userNumber.ToString().Length;  
 
 if (length >= 3)
 {

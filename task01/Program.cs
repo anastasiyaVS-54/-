@@ -13,7 +13,7 @@ int number1 = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("Введите число 2: ");
 int number2 = Convert.ToInt32(Console.ReadLine());
 
-if(number1/number2--number2)
+if(number1/number2==number2)
 {
     System.Console.WriteLine("Первое введенное число является квадратом второго ");
 }

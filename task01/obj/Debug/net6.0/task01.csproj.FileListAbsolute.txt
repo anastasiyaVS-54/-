@@ -21,3 +21,10 @@ C:\Users\Анастасия\Desktop\GeekBrains\1 четверть\Знакомс
 C:\Users\Анастасия\Desktop\GeekBrains\1 четверть\Знакомство с ЯП\Работы\project_c#\task01\obj\Debug\net6.0\task01.dll
 C:\Users\Анастасия\Desktop\GeekBrains\1 четверть\Знакомство с ЯП\Работы\project_c#\task01\obj\Debug\net6.0\refint\task01.dll
 C:\Users\Анастасия\Desktop\GeekBrains\1 четверть\Знакомство с ЯП\Работы\project_c#\task01\obj\Debug\net6.0\task01.pdb
+C:\Users\Анастасия\Desktop\GeekBrains\1 четверть\Знакомство с ЯП\Работы\project_c#\task01\bin\Debug\net6.0\task01.exe
+C:\Users\Анастасия\Desktop\GeekBrains\1 четверть\Знакомство с ЯП\Работы\project_c#\task01\bin\Debug\net6.0\task01.deps.json
+C:\Users\Анастасия\Desktop\GeekBrains\1 четверть\Знакомство с ЯП\Работы\project_c#\task01\bin\Debug\net6.0\task01.runtimeconfig.json
+C:\Users\Анастасия\Desktop\GeekBrains\1 четверть\Знакомство с ЯП\Работы\project_c#\task01\bin\Debug\net6.0\task01.dll
+C:\Users\Анастасия\Desktop\GeekBrains\1 четверть\Знакомство с ЯП\Работы\project_c#\task01\bin\Debug\net6.0\task01.pdb
+C:\Users\Анастасия\Desktop\GeekBrains\1 четверть\Знакомство с ЯП\Работы\project_c#\task01\obj\Debug\net6.0\task01.genruntimeconfig.cache
+C:\Users\Анастасия\Desktop\GeekBrains\1 четверть\Знакомство с ЯП\Работы\project_c#\task01\obj\Debug\net6.0\ref\task01.dll

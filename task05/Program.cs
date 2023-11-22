@@ -10,15 +10,15 @@ int max = a;
 if(b > max && b > c)
 {
     max = b;
-    System.Console.WriteLine(max);
+    System.Console.WriteLine($"b: '{max}'");
 }
 else if(c > max && c > b)
 {
     max = c;
-    System.Console.WriteLine(max);
+    System.Console.WriteLine($"c: '{max}'");
 }
 else
 {
     max = a;
-    System.Console.WriteLine(max);
+    System.Console.WriteLine($"a: '{max}'");
 }

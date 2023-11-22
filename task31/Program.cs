@@ -7,17 +7,60 @@
 
 Console.Clear();
 
-int[] GetRandomArray(int size)
+// функция заполнения массива
+int[] GetRandomArray(int size) // тип данных, имя функции -массива- (размер массива)
 {
-    int[] array = new int [size]; 
-    for (int i = 0; i < size; i++)
-    {
-        array[i] = new Random().Next(0,2);
+    int[] array = new int [size]; // тип данных, имя массива = создай новый массив [с заданным размером]
+    for (int i = 0; i < size; i++) // for(переменная счетчик = 0; пока 0 < размера массива; каждый цикл к 0 будем прибавлять + 1 )
+    {                                       // в теле цикла
+        array[i] = new Random().Next(-9, 10); // массив с индексом [счетчик "0"] = новое рандомное число. с  промежутком (-9,9)
     }
-    return array;
+    return array;                            // возвращаем массив
 }
 
+int[] userArray = GetRandomArray(12); // тип данных, новая переменная которая = хранит в себе функцию с параметром(9) - то-есть "int size = 12" 
 
 
+// вывод массива
+void PrintArray(int[] arr) // функция void, имя функции, аргумент (массив arr)
+{
+    for (int i = 0; i < arr.Length; i++) // переменная счетчик = 0; пока 0 < длины массива arr; каждый цикл к 0 будем прибавлять + 1
+    {
+        System.Console.Write($"{arr[i]}, "); // выводим на консоль массив
+    }
+}
 
-int[] userArray = GetRandArray(9);
+PrintArray(userArray); // вывызваем функцию void с параметром = (userArray = GetRandomArray = размер массива 12) = (int arr = 9)
+
+// рассчет суммы элементов
+
+int SumPositivNum(int[] arr) // тип данных, имя функции, параметры(массив)
+{
+    int result = 0;                      // переменная для сохр результата
+    for (int i = 0; i < arr.Length; i++) // цикл(переменная счетчик; пока 0 < длины массива(12); к 0 + 1)
+    {                                    // 
+        if(arr[i] > 0)                   //  если(массив с индексом [i][0] больше 0)
+        {
+            result += arr[i];            // прибавляем в перем результата значение массива с индексом [i]
+        }
+    }
+    return result;                       // возвращаем результат
+}
+
+int SumNegativNum(int[] arr)
+{
+    int result = 0;
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if(arr[i] < 0)
+        {
+            result += arr[i];
+        }
+    }
+    return result;
+}
+
+int possSum = SumPositivNum(userArray);
+int negtSum = SumNegativNum(userArray);
+
+System.Console.Write($"sum possitiv {possSum} and sum negativ {negtSum}");
